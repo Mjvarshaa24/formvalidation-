@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(315deg in oklch, oklch(71.65% 0.1392 288.98) 0.0%, oklch(76.87% 0.1230 299.36) 20.0%, oklch(83.07% 0.1019 310.73) 40.0%, oklch(88.99% 0.0789 320.54) 60.0%, oklch(92.86% 0.0398 299.15) 80.0%, oklch(94.88% 0.0193 264.68) 100.0%);
+    height: 100vh;
+ 
+}
+.card{
+  margin-top: 70px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 25px;
+}
+.forms{  
+  background-color: white;
+  width: 300px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 615px;
+  border-radius: 10px;
+}
+.group{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+input{
+  padding: 7px 20px;
+  border-radius: 10px;
+  padding-right: 50px;
+  border: 3px solid grey;
+  transition: transform 0.2s ease-in-out;
+}
+input:hover{
+  transform: translateY(-1px);
+}
+.error{
+  color: red;
+  font-size: 15px;
+}
+.btn button{
+  width: 100%;
+  padding: 10px 30px;
+  background-color: #e588fc;
+  color: rgba(12, 12, 12, 0.952);
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: transform 0.2s ease-in-out;
+}
+.btn button:hover{ 
+  background-color: rgb(112, 112, 112);
+  transform: translateY(-2px);
+}
+
+
+
+
+
+
+
+
+
